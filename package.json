@@ -1,0 +1,16 @@
+{
+  "name": "lgautomationplaywright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:qa": "cross-env TEST_ENV=QA playwright test",
+    "test:uat": "cross-env TEST_ENV=UAT playwright test",
+    "test:prod": "cross-env TEST_ENV=PROD playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "cross-env": "^7.0.3"
+  }
+}

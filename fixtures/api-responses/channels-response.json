@@ -1,0 +1,6 @@
+{
+  "channels": [
+    { "id": 1, "name": "Sports One" },
+    { "id": 2, "name": "News 24" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "baseURL": "https://telvizappingcom.tv2zdev.com/"
+  },
+  "staging": {
+    "baseURL": "https://staging-tv.example.com"
+  },
+  "prod": {
+    "baseURL": "https://prod-tv.example.com"
+  }
+}
